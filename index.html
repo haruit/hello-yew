@@ -3,12 +3,12 @@
   <head>
     <meta name="viewport" content="with=device, initial-scale=1">
     <title>Hello, Yew!</title>
-  <link rel="modulepreload" href="/hello-yew-c4d7c61fe7b2211b.js" crossorigin="anonymous" integrity="sha384-coVfGGnF6Iu19bRcup+8vtS1ZSr+vtmnZ/oxFpfQoz0CgKDBLR1+70QFpQYLuNHp"><link rel="preload" href="/hello-yew-c4d7c61fe7b2211b_bg.wasm" crossorigin="anonymous" integrity="sha384-t2tfnWmUGagOcP70dNyNEOA3IiAWhMSEdanJCaXf/5JHdVES/cHOC7swiUVQwWD6" as="fetch" type="application/wasm"></head>
+  <link rel="modulepreload" href="/hello-yew/hello-yew-c4d7c61fe7b2211b.js" crossorigin="anonymous" integrity="sha384-lgUeJ53Ga0Tv3ORYBioancN8wqU5V0V8lASpKCdoqqssYk31bDU1+SQ6pGBDt3dY"><link rel="preload" href="/hello-yew/hello-yew-c4d7c61fe7b2211b_bg.wasm" crossorigin="anonymous" integrity="sha384-+aGS82rKb0+GSCwXT1Us7g9x4flt7vfiU5mA03h7KZVZ9o62d73iguu6Xmf6tapS" as="fetch" type="application/wasm"></head>
   <body>
   
 <script type="module">
-import init, * as bindings from '/hello-yew-c4d7c61fe7b2211b.js';
-const wasm = await init({ module_or_path: '/hello-yew-c4d7c61fe7b2211b_bg.wasm' });
+import init, * as bindings from '/hello-yew/hello-yew-c4d7c61fe7b2211b.js';
+const wasm = await init({ module_or_path: '/hello-yew/hello-yew-c4d7c61fe7b2211b_bg.wasm' });
 
 
 window.wasmBindings = bindings;
