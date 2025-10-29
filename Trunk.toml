@@ -1,0 +1,3 @@
+[build]
+# public_url = "/hello-yew/"
+public_url = "/"
