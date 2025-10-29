@@ -26,6 +26,9 @@ jobs:
       - name: Install Trunk
         run: cargo install trunk
 
+      - name: Build
+        run: trunk build --release
+
       - name: Add .nojekyll
         run: touch dist/.nojekyll
 
